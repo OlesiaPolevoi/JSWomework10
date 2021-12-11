@@ -13,7 +13,7 @@ const book3 = document.querySelectorAll("h2 > a");
 book3[2].textContent = "Книга 3. this и Прототипы Объектов";
 
 const ad = document.querySelector(".adv");
-ad.classList.remove("adv");
+ad.remove();
 
 const book2Uls = document.querySelectorAll(".book > ul");
 const book2Li = book2Uls[1].querySelectorAll("li");
